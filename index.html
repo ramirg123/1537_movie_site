@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section class="ml-4 my-4">
+      <input
+        id="inp1"
+        type="text"
+        placeholder="Enter movie"
+        class="border-2 px-2"
+      />
+    </section>
+    <main id="main" class="flex flex-wrap justify-center gap-4"></main>
+
+    <section class="flex justify-center">
+      <button
+        id="loadMoreBtn"
+        class="bg-blue-600 p-2 border-2 text-white border-black my-2 mx-auto"
+      >
+        Load More
+      </button>
+      <p id="noMore" class="bg-red-400 p-2 border-2 my-2">No more movies to Load</p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
